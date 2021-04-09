@@ -1,0 +1,90 @@
+ 
+    ul {
+      margin-top: 0;
+      padding: 0;
+    }
+    
+ 
+    ul li {
+        
+      cursor: pointer;
+      position: relative;
+      margin-left:30px;
+      padding: 7px 20px 7px 20px;
+      list-style-type: none;
+      background-color: #111;
+    color:#fff;
+      font-size: 18px;
+      border-radius: 30px;
+      width: 715px;
+      margin-bottom: 2px;
+      border:1px solid black;
+      text-align: left;
+      text-transform:none;
+    
+    }
+    
+    
+    ul li:hover {
+      background:red;
+    }
+    
+  
+    .close {
+      position: absolute;
+      right: 0;
+      top: 0;
+      padding: 7px 16px 7px 16px;
+      font-size: 1.2em;
+    }
+    
+    .close:hover {
+      background-color:black;
+      color: white;
+      border-radius: 20px;
+    }
+    
+  .header {
+      
+      padding: 100px 40px;
+      color: white;
+      text-align: center; 
+      margin: 0px auto;
+      width: 800px;
+    }
+  
+    #myInput {
+        margin: 0;
+        border:darkorange;
+        border-radius: 20px;
+        width: 75%;
+        padding: 10px;
+        float: left;
+        font-size: 16px;
+        background-color: #111;
+        color:#fff;
+        border: 2px solid black;
+      }
+    
+  
+    .addBtn {
+      padding: 6px;
+      width: 10%;
+      float: left;
+      text-align: center;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 20px;
+      margin-left: 30px;
+      background-color: #111;
+    color:#fff;
+      font-weight: bold;
+    
+      border: 2px solid black;
+      
+    }
+    
+    .addBtn:hover {
+      background-color:darkred;
+      color:white;
+    }

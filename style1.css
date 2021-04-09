@@ -1,0 +1,93 @@
+/* * {
+    border: 1px solid black;
+} */
+
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family:'Lato', sans-serif;
+    line-height: 1.8em;
+    height:100%;
+}
+
+.section--img1{
+    background-image: url('https://cdn.datafloq.com/cache/blog_pictures/878x531/america-architecture-austin-273204.jpg');
+    min-height:100%;
+}
+
+.section--img2{
+    background-image: url('https://cdn.wallpapersafari.com/36/0/t0LPRS.jpg');
+    /* min-height:400px; */
+    min-height:100%;
+}
+
+.section--img3{
+    background-image: url('https://insights.dice.com/wp-content/uploads/2019/02/shutterstock_248799484-1.jpg');
+    /* min-height:400px; */
+    min-height:100%;
+}
+
+.section{
+    text-align: center;
+    padding:50px 80px;
+
+}
+
+.section--light{
+    background-color:#f4f4f4;
+    color:#666;
+}
+
+.section--dark{
+    background-color:#282e34;
+    color:#ddd;
+}
+.section--img1, .section--img2, .section--img3{
+    background-attachment: fixed;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity:0.70;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position:relative; */
+
+
+}
+
+.heading-container{
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    text-align:center; 
+    
+}
+
+#guess, #main, #bottom{
+    background-color: #111;
+    color:#fff;
+    padding:20px;
+    font-size: 1.687em;
+    font-weight: 400;
+}
+
+/* .heading-container__heading--trans{
+    background-color:transparent;
+} */
+
+@media (max-width:760px){
+    .heading-container__heading{
+        font-size:1.25em;
+    }
+}
+
+@media (max-width:568px){
+    .section--img1, .section--img2, .section--img3{
+        background-attachment: scroll;
+    }
+
+    .heading-container__heading{
+        font-size:1.25em;
+    }
+}
